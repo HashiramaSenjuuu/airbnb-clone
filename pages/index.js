@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
+import Banner from "../components/Banner"
 import styles from '../styles/Home.module.css'
+import Section from '../components/Section'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -14,8 +17,15 @@ export default function Home() {
    
 
     <Header />
-    {/* Banner */}
-    {/*  */}
+    <Banner />
+    
+    <main>
+      <Section />
+    </main>
+
+    <footer>
+      <Footer/>
+    </footer>
 
     </div>
   )
