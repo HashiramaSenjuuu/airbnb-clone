@@ -16,7 +16,7 @@ function Header() {
 
       {/* Middle */}
       <div className="my-auto border border-gray-300  rounded-3xl  flex shadow-md md:hover:shadow-lg 
-         md:max-w-sm mx-auto">
+        max-w-[160px] md:max-w-sm mx-auto">
         <input
           className="py-2 px-4 bg-transparent cursor-pointer rounded-3xl bg-white outline-none md:flex-grow"
           type="text"
