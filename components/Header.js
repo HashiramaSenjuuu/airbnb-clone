@@ -1,5 +1,6 @@
 import {  SearchIcon, UserCircleIcon } from '@heroicons/react/solid'
 import { MenuIcon, GlobeAltIcon } from '@heroicons/react/outline'
+import Image from 'next/image'
 
 function Header() {
   return (
@@ -7,8 +8,10 @@ function Header() {
       {/* Left */}
 
       <div className="relative cursor-pointer object-contain my-auto md:px-10 md:mx-10">
-        <img
-          className=" h-20 object-contain"
+        <Image
+          className=" object-contain"
+          height={70}
+          width={120}
           src="https://1.bp.blogspot.com/-F-z1mGuL4BU/WIZFRpXfZ8I/AAAAAAAADvg/kNuZAUciOtcs3RgO2U9Fq7RVSClxjlSAgCLcB/s320/airbnb-logo-293-86cb5a9eea395a8233842fb74a5b59af.png"
           alt="logo"
         />

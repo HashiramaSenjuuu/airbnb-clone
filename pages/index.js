@@ -5,6 +5,7 @@ import Banner from "../components/Banner"
 import styles from '../styles/Home.module.css'
 import Section from '../components/Section'
 import Footer from '../components/Footer'
+import LargeComponent from '../components/LargeComponent'
 
 export default function Home() {
   return (
@@ -23,9 +24,19 @@ export default function Home() {
       <Section />
     </main>
 
-    <footer>
+
+
+    <div className=" mt-16 lg:mt-36">
+      <LargeComponent />
+   
+
+      </div>
+
+     <footer>
       <Footer/>
-    </footer>
+    </footer> 
+
+
 
     </div>
   )
